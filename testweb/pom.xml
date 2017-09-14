@@ -34,7 +34,7 @@
           <stopKey>foo</stopKey>
           <stopPort>9987</stopPort>
           <!-- 本地装载contextXml，来解决未配置事务或数据库造成启动时等待时间过长 start -->
-          <contextXml>src/main/resources/test/jetty-deploy.xml</contextXml>
+          <contextXml>src/main/resources/jetty-deploy.xml</contextXml>
           <!-- 本地装载contextXml，来解决未配置事务或数据库造成启动时等待时间过长 end -->
           <connectors>
             <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
